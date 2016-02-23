@@ -1,17 +1,16 @@
 <div class="sitewrap">
 	<header class="header">
 		<div class="brand">
-			<h1>FootyPlan</h1>
-			<a href="/" class="logo"><img src="https://cdn.footyplan.com/assets/logo-f018ec861601dda4e77f05549dc1f76e.png" alt="Footy Plan Logo"></a>
-			<div class="sidebar-toggle">
-				<div class="fa fa-bars"></div>
-			</div>
+			<h1><a href="/" class="logo">FootyPlan<img src="https://cdn.footyplan.com/assets/logo-f018ec861601dda4e77f05549dc1f76e.png" alt="Footy Plan Logo"></a></h1>
+		</div>
+		<div class="sidebar-toggle">
+			<div class="fa fa-bars"></div>
 		</div>
 		<nav class="notify">
 			<ul class="nav">
 				<li class="dropdown">
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="true">
-						<i class="fa fa-tasks"></i>
+						<i class="fa fa-flag"></i>
 						<span class="badge bg-success">3</span>
 					</a>
 					<ul class="dropdown-menu">
@@ -22,7 +21,7 @@
 				</li>
 				<li class="dropdown">
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-						<i class="fa fa-envelope-o"></i>
+						<i class="fa fa-envelope"></i>
 						<span class="badge bg-important">4</span>
 					</a>
 					<ul class="dropdown-menu">
@@ -34,7 +33,7 @@
 				</li>
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-						<i class="fa fa-bell-o"></i>
+						<i class="fa fa-bell"></i>
 						<span class="badge bg-warning">3</span>
 					</a>
 					<ul class="dropdown-menu">
@@ -49,7 +48,7 @@
 			<ul class="nav">
 				<li class="dropdown">
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-						<img alt="" src="images/avatar1_small.jpg">
+						<img alt="" src="avatar.jpg">
 						<span class="username">John Doe</span>
 						<b class="caret"></b>
 					</a>
@@ -59,10 +58,12 @@
 						<li><p>Log Out</p></li>
 					</ul>
 				</li>
-				<li>Help</li>
+				<li><div class="sidebar-toggle">
+						<div class="fa fa-question" onclick="Intercom('showNewMessage')"></div>
+					</div></li>
 				<li>
 					<div class="sidebar-toggle">
-						<div class="fa fa-bars"></div>
+						<div class="fa fa-comment"></div>
 					</div>
 				</li>
 			</ul>
@@ -71,11 +72,11 @@
 	<aside class="left-sidebar">
 		<nav class="left-nav">
 			<ul class="nav">
-				<li>Dashboard</li>
-				<li>Session Builder</li>
-				<li>Messenger</li>
-				<li>Calendar</li>
-				<li>Referral Program</li>
+				<li><a href="#" class="active"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+				<li><a href="#"><i class="fa fa-table"></i>Session Builder</a></li>
+				<li><a href="#"><i class="fa fa-envelope"></i>Messenger</a></li>
+				<li><a href="#"><i class="fa fa-th-large"></i>Calendar</a></li>
+				<li><a href="#"><i class="fa fa-send"></i>Referral Program</a></li>
 			</ul>
 		</nav>
 	</aside>
@@ -118,7 +119,7 @@
 						</div>
 						<div class="panel-body">
 							<p>Panel body content goes here.</p>
-							<img src="http://placehold.it/350x250/00a6f6/ffffff?text=Footy Graph">
+							<img src="http://placehold.it/500/00a6f6/ffffff?text=Footy Graph">
 						</div>
 					</section>
 				</div>
@@ -137,6 +138,8 @@
 		</div>
 	</main>
 	<div class="right-sidebar">
-		<div class="content"></div>
+		<div class="content">
+			<h3>Messenger</h3>
+		</div>
 	</div>
 </div>
